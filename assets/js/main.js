@@ -36,7 +36,8 @@ const sr = ScrollReveal({
 });
 
 /*Data*/
-sr.reveal('.section__data',{origin: 'left',distance: '70px'}); 
+sr.reveal('.section__data',{origin: 'left',distance: '70px'});
+sr.reveal('.section__big__title',{origin: 'left',distance: '70px'});
 
 /*Imgs*/
-sr.reveal('.section__img',{origin: 'left',distance: '90px',delay: 200}); 
+sr.reveal('.section__img',{origin: 'left',distance: '90px',delay: 200});
