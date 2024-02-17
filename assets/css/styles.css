@@ -574,6 +574,7 @@
     }
     .section__text {
       padding-right: 4rem;
+      font-size: 1rem;
     }
     .section__img {
       width: 470px;
@@ -886,7 +887,7 @@
 .timeline__title {
   color: #b7c0c1;
   font-family   : var(--font-2);
-  font-weight   : 400;
+  font-weight   : 600;
   font-size     : 2.2rem;
   line-height   : 1.0966;
   margin-top    : 0;
@@ -895,9 +896,9 @@
 
 .timeline__meta {
   color: #9fabad;
-  font-family   : "Castoro", serif;
-  font-weight   : 400;
-  font-size     : 1.5rem;
+  font-family   :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight   : 100;
+  font-size     : 1.4rem;
   margin-top    : 0;
   margin-bottom : var(--vspace-0_125);
 }
@@ -908,7 +909,7 @@
   text-transform : uppercase;
   letter-spacing : .15em;
   color          :#0396A6;
-  margin-top     : -.2rem;
+  margin-top     : -.5rem;
 }
 
 .timeline__desc{
