@@ -358,3 +358,10 @@ img {
     margin-right: auto;
   }
 }
+
+.text_date{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: .8rem;
+  padding-bottom: .1rem;
+}
