@@ -31,13 +31,15 @@ gsap.from('.home__scroll', {opacity:0, duration: 3, delay: 1.5, y: 25, ease:'exp
 
 /*====== SCROLL REVEAL SECTION ======*/
 const sr = ScrollReveal({
-    duration: 2500,
+    duration: 2000,
     reset: true
 });
 
 /*Data*/
 sr.reveal('.section__data',{origin: 'left',distance: '70px'});
 sr.reveal('.section__big__title',{origin: 'left',distance: '70px'});
+sr.reveal('.section__big__title__img',{origin: 'left',distance: '70px'});
+sr.reveal('.s-about',{origin: 'left',distance: '70px'});
 
 /*Imgs*/
 sr.reveal('.section__img',{origin: 'left',distance: '90px',delay: 200});
