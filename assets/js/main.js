@@ -32,7 +32,7 @@ gsap.from('.home__scroll', {opacity:0, duration: 3, delay: 1.5, y: 25, ease:'exp
 /*====== SCROLL REVEAL SECTION ======*/
 const sr = ScrollReveal({
     duration: 2000,
-    reset: true
+    reset: false
 });
 
 /*Data*/
