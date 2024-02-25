@@ -574,6 +574,7 @@
     }
     .section__text {
       padding-right: 4rem;
+      text-align: justify;
       font-size: 1rem;
     }
     .section__img {
@@ -913,6 +914,18 @@
 }
 
 .timeline__desc{
+  font-size: 16px;
   color: whitesmoke;
   margin-bottom: 30px;
+  text-align: justify;
+}
+
+.timeline__desc ul{
+  font-size: 14px;
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+.timeline__desc ul li {
+  margin-bottom: 10px;
 }
